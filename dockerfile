@@ -1,13 +1,13 @@
-#sets the base image for subsequent instructions
+# sets the base image for subsequent instructions
 FROM continuumio/miniconda3
 
-#copy files into the container
+# copy files into the container
 COPY ./api /api
 
-#set the current working directory
+# set the current working directory
 WORKDIR /api
 
-#dowloads the package lists form the repositories and 'updates' them to get incormation on the newsest versions of packages and their dependancies
+# dowloads the package lists form the repositories and 'updates' them to get incormation on the newsest versions of packages and their dependancies
 RUN apt-get update 
 
 # update conda and create the environment
