@@ -2,7 +2,7 @@
 # $ conda create --name <env> --file <this file>
 # platform: linux-64
 
-certifi=2021.5.30=py38h06a4308_0
+
 click=8.0.1=pypi_0
 flask=2.0.1=pypi_0
 gunicorn=20.1.0=pypi_0
